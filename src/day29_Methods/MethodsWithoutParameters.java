@@ -16,6 +16,7 @@ public class MethodsWithoutParameters {
         System.out.println("Cybertek");
         printHello5Times();
 
+        MethodsWithoutParameters.printHello5Times();
     }
 
     //AccessModifier  specifier   returnTYPE   MethodName (Parameter){
