@@ -1,4 +1,4 @@
-package Day13_SwitchStatement;
+package day13_SwitchStatement;
 
 public class SwitchStetement_practice3 {
     public static void main(String[] args) {
