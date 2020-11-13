@@ -1,4 +1,4 @@
-package Day06Arithmetic_Operators;
+package day06Arithmetic_Operators;
 
 public class AboutMyself {
     public static void main(String[] args) {
