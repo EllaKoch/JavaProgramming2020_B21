@@ -17,6 +17,9 @@ public class MethodsWithoutParameters {
         printHello5Times();
 
         MethodsWithoutParameters.printHello5Times();
+        MethodsWithoutParameters2.printEvenNumbers1to100();
+        MethodsWithoutParameters2.printOddNumbers1to100();
+
     }
 
     //AccessModifier  specifier   returnTYPE   MethodName (Parameter){
