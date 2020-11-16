@@ -11,7 +11,7 @@ public class String_Equals {
 
         System.out.println(str.equals("Jira"));//false case sensitive
 
-        System.out.println(str.equalsIgnoreCase("JIRA"));//IGNORES SENSITIVITY
+        System.out.println(str.equalsIgnoreCase("JIRA"));//IGNORES SENSITIVITY==> true
 
 
     }

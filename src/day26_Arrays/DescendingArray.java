@@ -23,7 +23,7 @@ public class DescendingArray {
         int[] descending = new int[arr.length]; // [7, 6, 5, 2, 1, 0]
 
 
-        for(int i =arr.length-1, j = 0;   i >= 0 ;  i--, j++ ){ // i: 5, 4, 3, 2, 1, 0
+        for(int i =arr.length-1, j = 0;   i >= 0 ;  i--, j++ ){ // i:
 
             descending[j]= arr[i];
             /*

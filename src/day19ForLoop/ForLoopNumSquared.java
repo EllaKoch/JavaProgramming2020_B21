@@ -8,6 +8,11 @@ public class ForLoopNumSquared {
         System.out.println("Enter a number:");
         int num = scan.nextInt();
 
+        for (int i = num; i <= num; ) {
+            i = i * i;
+            System.out.println(num+" squared is: "+i);
+        }
+
 
     }
 }
