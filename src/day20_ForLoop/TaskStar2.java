@@ -24,5 +24,15 @@ public class TaskStar2 {
         System.out.println("* * * * * *");
 
 
+        for(int i = 1; i <= 5; i++){
+            if(i==1||i==5){
+                System.out.println("*****");
+            }else{
+                System.out.println("*   *");
+            }
+        }
+
+
+
     }
 }
