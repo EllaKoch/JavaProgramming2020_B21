@@ -66,6 +66,53 @@ public class ArraysUtility {
         }
         return arr3;
     }
+    /*
+       combines two arrays of double integers and returns the new array
+        */
+    public static double[] combineTwoArrays(double[] arr1, double[] arr2) {
+        double[] arr3 = new double[arr1.length + arr2.length];
+        int i = 0;// represents the index numbers of arr3
+        for (double each : arr1) {
+            arr3[i++] = each;
+        }
+        for (double each : arr2) {
+            arr3[i++] = each;
+        }
+        return arr3;
+    }
+
+
+    /*
+    combines two arrays of chars and returns the new array
+     */
+    public static char[] combineTwoArrays(char[] arr1, char[] arr2) {
+        char[] arr3 = new char[arr1.length + arr2.length];
+        int i = 0;// represents the index numbers of arr3
+        for (char each : arr1) {
+            arr3[i++] = each;
+        }
+        for (char each : arr2) {
+            arr3[i++] = each;
+        }
+        return arr3;
+    }
+
+    /*
+       combines two arrays of String and returns the new array
+        */
+    public static String[] combineTwoArrays(String[] arr1, String[] arr2) {
+        String[] arr3 = new String[arr1.length + arr2.length];
+        int i = 0;// represents the index numbers of arr3
+        for (String each : arr1) {
+            arr3[i++] = each;
+        }
+        for (String each : arr2) {
+            arr3[i++] = each;
+        }
+        return arr3;
+    }
+
+
 
     /*
     sorts the array of  integers in descending order, returns it as an array
