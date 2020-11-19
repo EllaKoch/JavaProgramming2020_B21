@@ -12,8 +12,10 @@ public class MethodOverLoadingIntro {
         int[] arr1 = {3,4,5};
         Arrays.sort(arr1);
 
+
         double[] arr2 = {2.5, 0.5, 1.5};
         Arrays.sort(arr2);
+        System.out.println(Arrays.toString(arr2));
 
         char[] arr3 = {'a', 'c', 'b'};
         Arrays.sort(arr3);
