@@ -5,13 +5,18 @@ import java.util.Arrays;
 public class MethodOverloading4 {
     public static void main(String[] args) {
         String[] arr = {"apple", "zapple"};
+        arr = sort(arr);
+
         System.out.println(Arrays.toString(sort(arr)));
 
-        char[] arr1 = {'a','f','x'};
+        char[] arr1 = {'a','d','x', 'c', 'f'};
+        arr1 = sort(arr1);
         System.out.println(Arrays.toString(sort(arr1)));
 
         double[] arr3 = {1.2, 3.4, -4.5};
+        arr3 = sort(arr3);
         System.out.println(Arrays.toString(sort(arr3)));
+
     }
 
     public static int[] sort(int[] arr) {// {2,1,3}
