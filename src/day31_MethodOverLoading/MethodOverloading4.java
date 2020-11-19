@@ -1,6 +1,7 @@
 package day31_MethodOverLoading;
 
 import java.util.Arrays;
+
 // sort double array, char array, string array, int array in descending order
 public class MethodOverloading4 {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class MethodOverloading4 {
 
         System.out.println(Arrays.toString(sort(arr)));
 
-        char[] arr1 = {'a','d','x', 'c', 'f'};
+        char[] arr1 = {'a', 'd', 'x', 'c', 'f'};
         arr1 = sort(arr1);
         System.out.println(Arrays.toString(sort(arr1)));
 
@@ -29,9 +30,10 @@ public class MethodOverloading4 {
 
         return reversedArray;
     }
-   /*
-   sorts the array of  String in descending order, returns it as an array
-    */
+
+    /*
+    sorts the array of  String in descending order, returns it as an array
+     */
     public static String[] sort(String[] arr) {// {2,1,3}
         Arrays.sort(arr);// {1,2,3}
         String[] reversedArray = new String[arr.length];//{3,2,1}
