@@ -30,5 +30,31 @@ public class Test {
 
         for(int k = 0; k<=4; k++ )
         System.out.print(k+" ");
-    }
+
+
+        System.out.println();
+        // print the next 3 numbers
+        int n = 5;
+        for(int l = n+1; l<=n+3;l++ ){
+            System.out.print(l+" ");
+        }
+
+        System.out.println();
+
+        for (int k = 0; k < 5; k++) {
+            for (int j = 0; j < 5; j++) {
+                if (k == 0 || k == 4) {
+                    System.out.print("*");
+                } else if (j == 0 || j == 4) {
+                    System.out.print("@");//when index is 1 2 3 it prints "&";
+                } else {
+                    System.out.print("&");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+}
 }

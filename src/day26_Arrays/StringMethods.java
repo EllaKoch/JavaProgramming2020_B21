@@ -35,6 +35,7 @@ public class StringMethods {
         String[] words =  sentence.split(" ");
 
         System.out.println(  Arrays.toString(words)  );
+        System.out.println(words[0]);
 
 
     }

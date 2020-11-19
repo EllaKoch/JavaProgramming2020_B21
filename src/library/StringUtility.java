@@ -110,4 +110,20 @@ public class StringUtility {
         return reverse(str).equalsIgnoreCase(str);
     }
 
+    public static int frequencyOfWord(String sentence, String word){
+        sentence = sentence.toLowerCase();
+        word = word.toLowerCase();
+
+        int frequency = 0;
+
+        while(sentence.contains(word)){
+            sentence = sentence.replaceFirst(word,"");
+            frequency++;
+        }
+
+
+
+        return frequency;
+    }
+
 }

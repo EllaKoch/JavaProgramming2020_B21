@@ -31,8 +31,8 @@ public class MethodCall {
 
         System.out.println(ArraysUtility.printArray(descending));
 
-        String s1 = "abcaabbc";
-        String s2 = "bbccaabc";
+        String s1 = "antn";
+        String s2 = "tan";
 
         boolean  r1 = StringUtility.isAnagram(s1,s2);
         System.out.println(r1);
