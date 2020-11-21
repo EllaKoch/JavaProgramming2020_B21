@@ -12,15 +12,15 @@ public class FrequencyOfCharForEachLoop {
         char letters[] = str.toCharArray();
         String unique = "";
         String result = "";
-        for(char each2 : letters){
+        for(char each : letters){
             int count = 0;
-            for(char each : letters){
+            for(char each2 : letters){
                 if(each==each2){
                     count++;
                 }
             }
-            if(!result.contains(each2+"")){
-                result+= "" + each2+count;
+            if(!result.contains(each+"")){
+                result+= "" + each+count;
             }
         }
         System.out.println(result);

@@ -1,5 +1,5 @@
 package day31_MethodOverLoading;
-
+import library.ArraysUtility;
 public class MethodOverLoading2 {
     public static void main(String[] args) {
 
@@ -10,6 +10,12 @@ public class MethodOverLoading2 {
         System.out.println(sum(10.5, 20.5));
         System.out.println(sum(10.5, 30.4, 20.4));
         System.out.println(sum(10.5, 30.4, 20.4, 40.3));
+
+        System.out.println("========================");
+        //practicing calling methods
+        int[] arr1 = {1,2,3,4};
+        System.out.println(ArraysUtility.printArray(ArraysUtility.sort(arr1)));
+
     }
 
     public static int sum(int a, int b) {

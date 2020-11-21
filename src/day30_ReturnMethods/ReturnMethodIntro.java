@@ -9,6 +9,8 @@ public class ReturnMethodIntro {
         int sum = addition2(10, 20);
         int multiplication = sum * 3;
         System.out.println(multiplication);
+
+
     }
 
     public static void addition(int n1, int n2) {//void method

@@ -15,7 +15,7 @@ public class UniqueStrings {
                 }
             }
             if(frequency==1){
-                System.out.print(element+" ");
+                System.out.println(element+" ");
             }
 
         }
