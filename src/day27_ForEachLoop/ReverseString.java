@@ -12,13 +12,9 @@ public class ReverseString {
                 reversedName += eachName.charAt(i);
             }
 
-            System.out.println(reversedName);
+            System.out.print(reversedName+" ");
 
         }
-
-
-
-
 
     }
 }
