@@ -44,7 +44,7 @@ public class DateTimePractice1 {
         System.out.println("After 30 years, this person will be: "+age2);
 
 
-        LocalDate DofB3 = LocalDate.of(1980,12,5);
+        LocalDate DofB3 = LocalDate.of(1991,4,2);
         System.out.println(calculateAge(DofB3,20) + " years old");
 
     }

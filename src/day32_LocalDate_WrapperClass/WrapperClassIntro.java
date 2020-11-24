@@ -17,7 +17,7 @@ public class WrapperClassIntro {
 
         Integer num = 100;
     //  Long L1 = num;// loyal to Long
-        long L2 = num;
+        long L2 = num;//takes anything  = unboxing
 
 
         System.out.println("=========================================");
@@ -27,7 +27,7 @@ public class WrapperClassIntro {
         int n = ch;//Unboxing = assigning to primitive
 
         long score = 100;
-        Long d2 = score;//cannot assign to anything but
+        Long d2 = score;//cannot assign to anything but long
         // long here unless you force it ex: (double) score   by casting
 
         Long d3 = d2; // none

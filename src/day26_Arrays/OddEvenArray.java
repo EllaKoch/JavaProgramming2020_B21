@@ -1,11 +1,6 @@
 package day26_Arrays;
 import java.util.Arrays;
-//
-//        1. how many even numbers in the array?
-//        2. how many odd numbers in the array?
-//        3. how many numbers can be evenly divisible by 3?
-//        4. how many numbers can be evenly divisible by 5?
-//
+
 public class OddEvenArray {
     public static void main(String[] args) {
 
@@ -15,7 +10,7 @@ public class OddEvenArray {
         //1~100
 
         for(int i = 0; i <= 99; i++){ // i: 0 ~ 99
-            numbers[i] = i+1;
+            numbers[i] = i+1;//1, 2, 3
             /*
             numbers[0] = 0;  0+1 =1
             numbers[1] = 1;  i+1 = 2
@@ -59,13 +54,6 @@ public class OddEvenArray {
         System.out.println("Odd Numbers: "+countOdd);
         System.out.println("Divisible by 3: "+count3);
         System.out.println("Divisible by 5: "+count5);
-
-
-
-
-
-
-
 
 
     }

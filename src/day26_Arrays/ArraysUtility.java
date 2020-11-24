@@ -43,7 +43,7 @@ public class ArraysUtility {
 
         System.out.println(Arrays.toString(names));
 
-        // equals( arr1, arr2)  returns boolean
+        // equals( arr1, arr2)  returns boolean and can be passes in print statement
 
             int[] a1 = {1,2,3};
             int[] a2 = {1,3,2};
@@ -54,6 +54,8 @@ public class ArraysUtility {
             boolean r1 = Arrays.equals(a1,a2);
 
         System.out.println(r1);
+
+        // System.out.println(Arrays.equals(a1,a2));
 
 
 
