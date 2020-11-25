@@ -11,7 +11,7 @@ public class DateTimePractice1 {
         System.out.println("Enter first persons' birth year, month, day:");//a
         LocalDate DofB1 = LocalDate.of(scan.nextInt(), scan.nextInt(), scan.nextInt());
 
-        System.out.println("Enter  second persons'birth year, month, day:");
+        System.out.println("Enter  second persons' birth year, month, day:");
         LocalDate DofB2 = LocalDate.of(scan.nextInt(), scan.nextInt(), scan.nextInt());//b
 
         if(DofB1.isBefore(DofB2)){

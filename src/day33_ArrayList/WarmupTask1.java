@@ -29,7 +29,7 @@ public class WarmupTask1 {
         LocalDate[]  days  = new LocalDate[5];
 
         for (int i = 0; i <= days.length-1; i++){
-            days[i] = LocalDate.now().plusDays(i+1);
+            days[i] = LocalDate.now().plusDays(i+1);//i+1 is to start from tmrw
         }
 
         System.out.println(Arrays.toString(days));
@@ -44,6 +44,7 @@ public class WarmupTask1 {
 // find youungest and oldest from array
 
         String[] names = {"Ella", "Bella", "Amina", "Asya", "Lily"};
+
         LocalDate[] DofB = {
                 LocalDate.of(1991,9,25),
                 LocalDate.of(1990,11,23),

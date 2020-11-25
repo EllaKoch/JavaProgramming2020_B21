@@ -17,7 +17,7 @@ public class ParseMethods {
 
         // int num3 = Integer.parseInt(s1);
 
-        //   System.out.println(num3);
+         //  System.out.println(num3);//    exception
 
 
         String s2 = "2.5";

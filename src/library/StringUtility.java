@@ -54,7 +54,7 @@ public class StringUtility {
         String result = "";  //"abc"
 
         for (int i = 0; i <= str.length() - 1; i++) {
-            if (!result.contains("" + str.charAt(i))) {
+            if (!result.contains(""+str.charAt(i))) {
                 result += str.charAt(i);
             }
         }

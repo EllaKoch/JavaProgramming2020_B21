@@ -24,45 +24,49 @@ public class WarmUpTasks {
         arr2 = addElement(arr2, 5.5);
         System.out.println(Arrays.toString(arr2));
 
+        String[] arr3 = {"elle", "belle", "ale"};
+       arr3 =  addElement(arr3,"pale");
+        System.out.println(Arrays.toString(arr3));
+
     }
 
-    public static int[] addElement(int[] array, int number) {
+    public static int[] addElement(int[] array, int element) {
         int[] result = new int[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
-            result[result.length-1]=number;
+            result[result.length-1]=element;//last index of result is the new number
         return result;
     }
 
-    public static double[] addElement(double[] array, double number) {
+    public static double[] addElement(double[] array, double element) {
         double[] result = new double[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
-        result[result.length-1]=number;
+        result[result.length-1]=element;
         return result;
     }
 
-    public static char[] addElement(char[] array, char number) {
+    public static char[] addElement(char[] array, char element) {
         char[] result = new char[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
-        result[result.length-1]=number;
+        result[result.length-1]=element;
         return result;
     }
 
-    public static String[] addElement(String[] array, String number) {
+    public static String[] addElement(String[] array, String element) {
         String[] result = new String[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
-        result[result.length-1]=number;
+        result[result.length-1]=element;
         return result;
     }
 

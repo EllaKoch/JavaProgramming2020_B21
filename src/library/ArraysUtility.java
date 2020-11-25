@@ -185,7 +185,7 @@ public class ArraysUtility {
         int[] result = new int[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
         result[result.length-1]=element;
         return result;
@@ -197,7 +197,7 @@ public class ArraysUtility {
         double[] result = new double[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
         result[result.length-1]=element;
         return result;
@@ -209,7 +209,7 @@ public class ArraysUtility {
         char[] result = new char[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
         result[result.length-1]=element;
         return result;
@@ -220,7 +220,7 @@ public class ArraysUtility {
         String[] result = new String[array.length + 1];
 
         for (int i = 0; i <= array.length - 1; i++) {
-            result[i] += array[i];
+            result[i] = array[i];
         }
         result[result.length-1]=element;
         return result;
