@@ -1,5 +1,6 @@
 package library;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArraysUtility {
@@ -280,6 +281,90 @@ public class ArraysUtility {
         }
 
         return reverse;
+    }
+
+
+    /*
+        removes the duplicates from an array of integers and returns it
+     */
+    public static int[]  removeDuplicates(int[] arr){
+        ArrayList<Integer> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(int each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        int[] nonDup = new int[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of double and returns it
+     */
+    public static double[]  removeDuplicates(double[] arr){
+        ArrayList<Double> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(double each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        double[] nonDup = new double[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of char and returns it
+     */
+    public static char[]  removeDuplicates(char[] arr){
+        ArrayList<Character> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(char each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        char[] nonDup = new char[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of String and returns it
+     */
+    public static String[]  removeDuplicates(String[] arr){
+        ArrayList<String> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(String each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        String[] nonDup = new String[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
     }
 
 
