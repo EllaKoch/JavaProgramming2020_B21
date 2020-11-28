@@ -227,6 +227,66 @@ public class ArraysUtility {
     }
 
 
+    /*
+         reverses an array of integer and returns it
+      */
+    public static int[] reverse(int[] arr){
+        int[] reverse = new int[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of double and returns it
+     */
+    public static double[] reverse(double[] arr){
+        double[] reverse = new double[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of char and returns it
+     */
+    public static char[] reverse(char[] arr){
+        char[] reverse = new char[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of String and returns it
+     */
+    public static String[] reverse(String[] arr){
+        String[] reverse = new String[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+
+
+
+
 
 
 
