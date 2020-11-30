@@ -36,17 +36,16 @@ public class Test {
 
         System.out.println(Arrays.toString(array));
 
-       int[] arr = {0,4,2,7,2,2};
+       int[] arr = {4,2,7,2,2,-1};
        for(int i  = 1; i <= arr.length-1; i++){
-           int j =arr[i+1];
 
-           int temp = 0;
-           while(temp>=0 && temp < j-1){
-
-               arr[j-1] = arr[j];
+           int temp = arr[i];
+           int j = i-1;
+           while( j >= 0 && temp < arr[j]){
+               arr[j+1] = arr[j];
                j--;
            }
-
+                arr[j+1] = temp;
 
 
            System.out.println(Arrays.toString(arr));
