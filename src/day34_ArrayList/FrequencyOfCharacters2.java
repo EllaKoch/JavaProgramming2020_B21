@@ -7,7 +7,7 @@ public class FrequencyOfCharacters2 {
     public static void main(String[] args) {
         String str = "AAABBCCDDDDEEE";
 
-        String result = "";
+        String result = ""; // A3B2C1D4E3
 
         ArrayList<Character> list = new ArrayList<>();
 
