@@ -1,19 +1,30 @@
 package day35_CustomClass;
 
+import java.time.LocalDate;
+
 public class Car {
 
-   public String brand;// instance variables
+    public String brand;// instance variables
+    public String model;
+    public String color;
+    public int year;
+    public double price;
 
-   public String model;
+    public void setInfo(String carBrand, String carModel, String carColor, int carYear, double carPrice) {
 
-   public void setInfo(String carBrand, String carModel){
+        brand = carBrand;
+        model = carModel;
+        color = carColor;
+        year = carYear;
+        price = carPrice;
 
-      brand = carBrand;
-      model = carModel;
+    }
 
+    public void getInfo() {
 
-   }
+        System.out.println(year + " " + brand + " " + model + " " + color +" $" + price);
 
+    }
 
 
 }
