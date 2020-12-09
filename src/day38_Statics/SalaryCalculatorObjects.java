@@ -10,7 +10,14 @@ public class SalaryCalculatorObjects {
 
         SalaryCalculator obj2 = new SalaryCalculator();
         obj2.setInfo(55, 40, 8, 22);
-        System.out.println(obj1.equals(obj2));
+
+        System.out.println(obj1==obj2);
+
+
+        // ==
+
+        System.out.println( obj1.equals(obj2)  );
+
 
     }
 }

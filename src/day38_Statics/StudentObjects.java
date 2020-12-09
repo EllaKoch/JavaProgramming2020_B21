@@ -12,7 +12,7 @@ public class StudentObjects {
         //   System.out.println( student1.schoolName );
         //    System.out.println( student2.schoolName );
 
-        System.out.println(CybertekStudent.schoolName); // preferd
+        System.out.println(CybertekStudent.schoolName); // preferred
 
 
         CybertekStudent student3 = new CybertekStudent();
@@ -28,7 +28,7 @@ public class StudentObjects {
         student2.getSchoolInfo();
         student3.getSchoolInfo();
 */
-        CybertekStudent.getSchoolInfo();
+        CybertekStudent.getSchoolInfo();//static preferred to be called from the class name
 
 
 

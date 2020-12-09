@@ -16,14 +16,15 @@ public class CybertekStudent {
         this.gender = gender;
     }
 
+    public static void getSchoolInfo(){
+        System.out.println("School is: "+schoolName);
+    }
 
     public void study(){
         System.out.println(name +" is studying Java");
     }
 
-    public static void getSchoolInfo(){
-        System.out.println("School is: "+schoolName);
-    }
+
 
 
     public String toString() {

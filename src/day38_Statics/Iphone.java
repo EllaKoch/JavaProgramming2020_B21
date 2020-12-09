@@ -6,6 +6,13 @@ public class Iphone {
 
     public static String brand = "Apple" , OS = "iOS" , madeIn = "China" ;
 
+    public void setInfo(String model, String color, String storage, double price) {
+        this.model = model;
+        this.color = color;
+        this.storage = storage;
+        this.price = price;
+    }
+
     public void call(long phoneNumber){
         System.out.println("Iphone "+model+" is calling "+phoneNumber);
     }
