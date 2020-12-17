@@ -15,6 +15,7 @@ public class ValueOfMethod {
 
         double num3 = Double.valueOf(s2);
         System.out.println(num3+1);// + 1 is just to check if it is a number not a string
+        System.out.println(s2);
 
         String s3 = "true";// not case sensitive
         boolean r1 = Boolean.valueOf(s3);// unboxing
