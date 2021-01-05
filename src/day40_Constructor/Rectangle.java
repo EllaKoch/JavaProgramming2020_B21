@@ -37,6 +37,8 @@ public class Rectangle {
          Rectangle rectangle2 = new Rectangle(10, 20);
          System.out.println(rectangle2);
 
+         System.out.println(Rectangle.numberOfSides);// call static through its class name
+
      }
      }
 

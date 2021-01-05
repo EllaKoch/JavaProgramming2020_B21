@@ -18,7 +18,7 @@ public class BulkOperations {
         // verify if 10 is contained in the list
         boolean r1 = list.contains(10);
 
-        // verify if 10, 30, 50 & 60 all are contained in the lost
+        // verify if 10, 30, 50 & 60 all are contained in the list
         boolean r2 = list.contains(10) && list.contains(30) && list.contains(50) && list.contains(60);
 
         System.out.println("r1 = " + r1);

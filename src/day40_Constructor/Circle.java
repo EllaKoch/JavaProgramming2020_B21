@@ -17,11 +17,15 @@ public class Circle {
         perimeter = d * PI;
     }
 
+
+
+
     public static void main(String[] args) {
         Circle circle1 = new Circle(5);
 
         System.out.println(circle1.area);
         System.out.println(circle1.perimeter);
+        System.out.println(circle1);// gives hashcode needs to string in circle class
 
         Circle circle2 = new Circle(10);
         System.out.println(circle2.area);

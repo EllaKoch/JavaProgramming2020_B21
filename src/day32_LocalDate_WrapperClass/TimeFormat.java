@@ -32,7 +32,8 @@ public class TimeFormat {
 
 
         DateTimeFormatter tf = DateTimeFormatter.ofPattern("hh:mm:ss a");
-        LocalTime now = LocalTime.now();
+
+        LocalDateTime now = LocalDateTime.now();
 
         System.out.println(now);
 
@@ -43,8 +44,17 @@ public class TimeFormat {
 
         System.out.println(t1.format(tf));
 
+        // Monday, 12:40 PM,  Nov/23/2020 ==> print current date and time in this format
+
+        LocalDateTime now1 = LocalDateTime.now();
+
+        DateTimeFormatter forNow = DateTimeFormatter.ofPattern("EEEE, hh:mm a, M/dd/yyyy");
+
+        System.out.println(now1.format(forNow));
+
+        System.out.println("-------------------------------------------------");
         // Monday, 12:40 PM,  Nov/23/2020
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEE, hh:mm a, MMMM/dd/yyyy");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/yyyy");
 
         LocalDateTime dt1 = LocalDateTime.of(2020, 11, 23, 12, 40);
 

@@ -6,7 +6,7 @@ public class ConstructorCall {
         System.out.println("Default constructor");
     }
 
-     public ConstructorCall(int a ){
+      public ConstructorCall(int a ){
         this();
          System.out.println("Constructor with int arg");
      }
