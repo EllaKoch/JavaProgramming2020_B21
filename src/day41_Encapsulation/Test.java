@@ -1,6 +1,8 @@
 package day41_Encapsulation;
 
-public class Test {
+import day43_Inheritance.AccessModifiers;
+
+public class Test  extends AccessModifiers {
     public static void main(String[] args) {
         System.out.println(Data.publicVariable);
         //    System.out.println(Data.privateVariable);
@@ -12,7 +14,13 @@ public class Test {
         //  Data.privateMethod();
         Data.defaultMethod();
 
+        Test.publicMethod();
+        Test.protectedMethod();
+        //Test.defaultMethod;
+
     }
+
+
 
 }
 
