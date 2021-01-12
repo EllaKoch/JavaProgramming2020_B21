@@ -7,17 +7,8 @@ public abstract class Shape {// generic word/ Not concrete
         this.name = name;
     }
 
-    public abstract double area();
+    public abstract double area();// private/static/final methods cannot be abstract!!!
     public abstract double perimeter();
-
-
-
-
-
-
-
-
-
 
 
 

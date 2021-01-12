@@ -17,8 +17,9 @@ public class BankOfAmerica {
         obj1.deposit(200);
 
         obj1.availableBalance();
+        System.out.println(obj1.getBalance());
 
-
+       // System.out.println(obj1.bankName);// not a legal way of calling static members
         System.out.println(BankAccount.bankName);
 
 
