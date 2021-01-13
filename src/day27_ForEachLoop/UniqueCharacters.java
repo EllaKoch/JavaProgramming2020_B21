@@ -17,7 +17,7 @@ public class UniqueCharacters {
             char element = arr[j];
             int frequency = 0;
             for (int i = 0; i <= arr.length - 1; i++) {
-                if (arr[i] == element) {
+                if (arr[i]==element) {
                     frequency++;
                 }
             }

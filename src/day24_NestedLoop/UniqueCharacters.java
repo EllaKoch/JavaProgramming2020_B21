@@ -1,4 +1,5 @@
 package day24_NestedLoop;
+
 /*
  3. write a program that can find the unique characters from a string
             Ex:
@@ -18,7 +19,7 @@ public class UniqueCharacters {
 
         String str = "AABCCDEERFGG";
 
-        for(int index = 0; index < str.length(); index++) { // index <= str.length() -1
+        for (int index = 0; index < str.length(); index++) { // index <= str.length() -1
             // purpose of this loop is to iterate through the char one at a time
 
             int frequency = 0; // resetting the value each iteration of the outer loop (first loop)
@@ -28,7 +29,7 @@ public class UniqueCharacters {
             //      1 -> A
             //      2 -> B
 
-            for(int inner = 0; inner < str.length(); inner++) {
+            for (int inner = 0; inner < str.length(); inner++) {
 
                 // charAt(inner)
                 //      0 -> A
@@ -38,7 +39,7 @@ public class UniqueCharacters {
                 //      4 -> C
                 //      5 -> D
 
-                if(str.charAt(index) == str.charAt(inner)) {
+                if (str.charAt(index) == str.charAt(inner)) {
                     frequency++;
                 }
 
@@ -52,7 +53,7 @@ public class UniqueCharacters {
 
             }
 
-            if(frequency == 1) {
+            if (frequency == 1) {
                 System.out.print(str.charAt(index));
             }
 
