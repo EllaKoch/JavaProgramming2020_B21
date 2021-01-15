@@ -1,13 +1,13 @@
 package day49_Abstraction.ShapeTask;
 
 public final class Cube extends Shape implements Volume {
-    public double side;
+    private double side;
 
     public Cube(double side) {
         super("Cube");
         if(side <=0)
             throw new RuntimeException("No such a cube with the side of: " + side);
-        this.side = side;
+        setSide(side);
     }
 
 
@@ -40,5 +40,11 @@ public final class Cube extends Shape implements Volume {
                 '}';
     }
 
+    public double getSide() {
+        return side;
+    }
 
+    public void setSide(double side) {
+        this.side = side;
+    }
 }
