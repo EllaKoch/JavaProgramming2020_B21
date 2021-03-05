@@ -34,8 +34,8 @@ public class PostPre {
         //b = -1 +   0  /  -1   * -1
         //b  =-1 + 0 * 1
         //b = -1 + 0 = -1
-        System.out.println(b);
-        System.out.println(a);
+        System.out.println("b = "+b);//-1
+        System.out.println("a = "+a);//-3
 
 
         System.out.println("====================");

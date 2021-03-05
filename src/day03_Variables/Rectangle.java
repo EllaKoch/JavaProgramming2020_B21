@@ -35,8 +35,6 @@ public class Rectangle {
         //task 3:
 
         System.out.println("\t\t\t\t *\n\t\t\t   * * *\n\t\t\t * * * * *\n\t\t   * * * * * * *\n\t\t  * * * * * * * *\n\t\t * * * * * * * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *\n\t\t\t   * * *");
-
-
     }
 }
 

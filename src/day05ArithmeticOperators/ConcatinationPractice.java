@@ -29,8 +29,8 @@ public class ConcatinationPractice {
         System.out.println();
 
         System.out.println("hello" +(2+3)+9);//conc vs addition
-
-
+        System.out.println((2+3)+9+"a"+2+3);
+        System.out.println("hello" +2+3+9);
 
     }
 }

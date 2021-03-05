@@ -19,7 +19,7 @@ public class Timer {
 
         System.err.println("\t\t\t* * * * * * * * * * * * * * * * * * * * * * * * * *");
         System.err.println("\t\t\t*                                                 *");
-        System.err.println("\t\t\t*       Times is Up, Please take your seats!      *");
+        System.err.println("\t\t\t*       Times is Up! Please take your seats!      *");
         System.err.println("\t\t\t*                                                 *");
         System.err.println("\t\t\t* * * * * * * * * * * * * * * * * * * * * * * * * *");
 

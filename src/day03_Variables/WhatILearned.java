@@ -3,7 +3,6 @@ package day03_Variables;
 public class WhatILearned {
 
     public static void main(String[] args) {
-
      /*
      Task01
         Create a new class called  WhatILearned
@@ -19,9 +18,5 @@ public class WhatILearned {
         System.out.println("JVM stands for: " +JVM + '.');
         System.out.println("JRE stands for: " +JRE + '.' );
         System.out.println("JDK stands for: " +JDK + '.' );
-
-
-
-
     }
 }

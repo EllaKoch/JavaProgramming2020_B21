@@ -7,7 +7,7 @@ public class DaysInAMonth {
         //days; 28,28,30,31
 
         int year = 2021;
-        int month = 2; //1~12
+        int month = 8; //1~12
 
         String result = "";
 

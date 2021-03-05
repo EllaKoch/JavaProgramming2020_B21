@@ -8,7 +8,10 @@ public class CarShop {
         Tesla tesla = new Tesla("S","Blue", 2020, 38000);
         BMW bmw = new BMW("i8","Gray", 2021,147500);
 
-        System.out.println("Start mercedes: "); mercedes.start();
+        System.out.println(tesla);
+
+        System.out.println("Start mercedes: ");
+        mercedes.start();
 
         System.out.println("Start Toyota: "); toyota.start();
 

@@ -16,6 +16,11 @@ public abstract class Animal {
 
     public abstract void sleep();
 
+    void m(){
+
+    }
+
+
 
 
     @Override

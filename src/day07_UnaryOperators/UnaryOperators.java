@@ -4,8 +4,8 @@ public class UnaryOperators {
 
     public static void main(String[] args) {
         int a = 0;
-        boolean isPositive = a > 0; //veryfy if a is a positive
-        boolean isNegative = a < 0; //veryfy if a is a negative
+        boolean isPositive = a > 0; //verify if a is a positive
+        boolean isNegative = a < 0; //verify if a is a negative
 
         System.out.println(a+" ia positive number: " + isPositive);
         System.out.println(a+ " is a negative number: "+ isNegative);
@@ -76,11 +76,11 @@ public class UnaryOperators {
             weather = "Shiny";
             degree = 70;
             boolean comp = (!(weather=="Rainy"||degree==70));
-        System.out.println(comp);
+        System.out.println("comp = " + comp);
 
         int abc = 2;
         boolean cbd = ++abc==2||--abc == 2 && --abc ==2;
-        System.out.println(cbd+"cbd");
+        System.out.println(cbd + " cbd");
 
     }
 }

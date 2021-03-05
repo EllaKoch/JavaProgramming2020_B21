@@ -15,8 +15,8 @@ public class CarObjects {
         System.out.println(mercedes);
 
 
-        Jeep jeep = new Jeep("Rubicon", "Green", 50000, 2020);
-
+        Car jeep = new Jeep("Rubicon", "Green", 50000, 2020);
+      //  jeep.test();
         jeep.start();
         System.out.println(jeep);
 

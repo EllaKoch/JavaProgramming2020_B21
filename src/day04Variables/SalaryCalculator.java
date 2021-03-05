@@ -20,8 +20,8 @@ Task04: SalaryCalculator
        double taxRate = 0.28;
        double totalTax = salary * taxRate;
        double salaryAfterTax = salary - totalTax;
-        System.out.println("Tatoal tax will be: ");
-        System.out.println(totalTax);
+        System.out.println("Tatal tax will be: " + totalTax);
+        // System.out.println(totalTax);
 
         System.out.println("Your salary after tax will be: ");
         System.out.println(salaryAfterTax);

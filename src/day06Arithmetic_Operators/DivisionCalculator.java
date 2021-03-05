@@ -3,6 +3,10 @@ package day06Arithmetic_Operators;
 public class DivisionCalculator {
     public static void main(String[] args) {
 
+        devides(5,0);
+
+        divide(-50,-30);
+
         int num1 = 10, num2 = 3;
         int total = num1/num2;
         //System.out.println("10 divided by 3 equals to " + total + " with a remainder of 1");
@@ -51,4 +55,55 @@ Task: DivisionCalculator
 
 
     }
+
+
+    public static void devides(int num1, int num2) {
+
+        if(num2==0) {
+
+            System.out.println("Invalid Number");
+
+            return;
+
+        }
+
+        System.out.print(num1 +" divided by "+num2 +" is: ");
+
+        int count =0;
+
+        while(num1 >= num2) {
+
+            num1 -= num2;
+
+            count++;
+
+        }
+
+        System.out.println(count+" and remainder is "+num1);
+
+    }
+
+
+
+    public static void divide(int a, int b){
+        if(b==0){
+            System.out.println("Invalid divisor");
+            return;
+        }
+        System.out.print(a +" divided by "+b +" is: ");
+
+        int result = 0; //  1+1 =   2
+        while(a>=b){ // 4 > 2
+                    //  2 = 2
+                    //  0 !=2
+            a-=b;//  a =  4-2 = 2
+                //   a =  2-2 = 0
+            result++;// 1, 1
+        }
+                        //  2                             // 0
+        System.out.println(result+" with the remainder of "+ a);
+
+
+    }
+
 }

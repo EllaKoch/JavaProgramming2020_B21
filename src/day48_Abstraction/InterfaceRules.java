@@ -1,14 +1,23 @@
 package day48_Abstraction;
 
-public interface InterfaceRules {
-    // variables in interface cannot be reinitialized
-    int a = 100;// PUBLIC, STATIC, FINAL  by default
+import day48_Abstraction.AnimalTask.Animal;
+import day48_Abstraction.AnimalTask.Shark;
 
-    public  default void m(){// default method (won't use it in selenium)
+public interface InterfaceRules {
+    Shark s = new Shark("sd","hjshf", "esdkfhk",'d', 4);
+
+    // variables in interface cannot be reinitialized
+  public static final   int a = 100;// PUBLIC, STATIC, FINAL  by default
+
+    public default void m(){// default method (won't use it in selenium)
 
     }
 
-    void method2();//abstract methods
+    public static void method1(){
+
+    }
+    public abstract void method2();//abstract methods
+
 
 
 

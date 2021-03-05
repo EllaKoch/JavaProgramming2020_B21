@@ -14,7 +14,7 @@ public class KgToPounds {
         */
 
         double kg = 53.5;
-        double pounds = kg * 2.2;
+        double pounds = kg * 2.24;
         System.out.println(pounds);
 
 

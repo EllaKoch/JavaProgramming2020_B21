@@ -1,14 +1,15 @@
 package day08_ShortHand_Relational;
 
-public class TaskSwipeValueTempVar {
+public class TaskSwapValueTempVar {
     public static void main(String[] args) {
-        int a = 10;
+        int a = 5;
         int b = 15;
         int c = 10;
             a = b;//a = 15
             b = c;//b = 10
+            c = a - b;
 
-         System.out.println("a = " + a + "\nb = " + b);
+        System.out.println("a = " + a + "\nb = " + b+ "\nc = " + c);
 
         // System.out.println("a = " + (a + 5) + "\nb = " + (b - 5));
 

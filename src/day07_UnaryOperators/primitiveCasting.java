@@ -33,11 +33,7 @@ public class primitiveCasting {
         // SHOULD NEVER CAST TO A TYPE THAT IS IN SMALLER RANGE.
         //IT DOES NOT EFFECT ON THE LIMIT of the data type
 
-
-
-
-
-
+        System.out.println(b1);
 
 
     }

@@ -1,5 +1,7 @@
 package day25_ArraysIntro;
 
+import java.util.Arrays;
+
 public class ArrayPractice {
     public static void main(String[] args) {
 
@@ -22,14 +24,7 @@ public class ArrayPractice {
             System.out.println(students[i]);
         }
 
-
-
-
-
-
-
-
-
+        System.out.println(Arrays.toString(students));
 
 
     }

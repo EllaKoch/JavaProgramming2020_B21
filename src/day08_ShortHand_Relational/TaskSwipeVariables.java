@@ -1,6 +1,6 @@
 package day08_ShortHand_Relational;
 
-public class TaskSwipeVariables {
+class TaskSwapVariables {
     public static void main(String[] args) {
         int a = 10;
             a += 5;//a = a + 5

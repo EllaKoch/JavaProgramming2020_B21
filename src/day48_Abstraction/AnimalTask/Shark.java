@@ -5,6 +5,8 @@ public final class Shark extends Animal implements Swimmable, Predator{
         super(name, breed, size, gender, age);
     }
 
+
+
     @Override
     public void sleep() {
         System.out.println("Shark sleeps for 6 hours");

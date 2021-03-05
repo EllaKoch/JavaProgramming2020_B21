@@ -16,7 +16,7 @@ public class HTTPStatusCode {
             System.out.println("Accepted");
         }
         if (statusCode == 301){
-            System.out.println("Moved permenantly");
+            System.out.println("Moved permanently");
         }
         if (statusCode == 303){
             System.out.println("See Other");
